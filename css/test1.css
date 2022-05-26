@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+/*Nevigation bar*/
+.logo{
+    display: block;
+    margin-right: 1000;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ } 
+li{
+    float: right;
+} 
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*section1*/
+.sec1{
+    width: 100%;
+    background-image: url("../image/pexels-photo-5965948.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+.sec11{
+    text-align: left;
+    color: white;
+    padding-left: 60%;
+    padding-top: 10%;
+}
+.health{
+    font-size: 90px;
+    font-weight: bold;
+}
+.time{
+    font-size: 20px;
+    font-weight: bold;
+}
+.duis{
+    font-size: 20px;
+}
+.readmore{
+    border-color: white;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    width: 35%;
+}
+
+/*section2*/
+.table2 {
+    width: 100%;
+    height: 60%;
+    border-spacing: 40px;
+} 
+.td21{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: white;
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+    width: 20%;  
+} 
+.weight{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+.weight1{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+.readmore2{
+    border-color: lightgray;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 40%;
+}
+
+.td22{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+    width: 10%;  
+} 
+.td23{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: skyblue;
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+    width: 10%;  
+} 
+.td24{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: rgba(29, 28, 28, 0.996);
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+    width: 10%;  
+} 
+.td22 img{
+    padding: 20px;
+    text-align: center;
+    width: 15%;
+}
+.td23 img{
+    padding: 20px;
+    text-align: center;
+    width: 15%;
+}
+.td24 img{
+    padding: 20px;
+    text-align: center;
+    width: 15%;
+}
+
+.over{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.over1{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/*section3*/
+.sec3{
+    width: 100%;
+    background-image: url("../image/pexels-photo-4038777.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+.sec22{
+    text-align: left;
+    color: black;
+    padding-left: 7%;
+    padding-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.behealthy{
+    font-size: 60px;
+    font-weight: bold;
+}
+.email{
+    width: 30%;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit{
+    width: 30%;
+    border: hidden ;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+/*section4*/
+.sec4{
+    background-color: tomato;
+    text-align: left;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.table4 {
+    width: 100%;
+    height: 20%;
+} 
+.td41{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+} 
+.td42{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+    color: white;
+    margin-top: 0;
+    font-weight: bold;
+} 
+.td43{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+} 
+.td44{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+    font-style: italic;
+    color: white;
+    line-height: 25px;
+} 
+.td41 img{
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+
+/*section5*/
+.sec5{
+    background-color: white;
+
+}
+.img1{
+    width: 35%;
+    height: 70%;
+    border-radius: 100%;
+    margin-top: 30%;
+    margin-left: 5%;
+}
+.dot2 {
+    height: 30%;
+    width: 15%;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 30%;
+}
+.dot3 {
+    height: 10%;
+    width: 5%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    border: 20px solid skyblue;
+}
+.p1{
+    margin-left: 50%;
+    font-size: 40px;
+    margin-top: -70px;
+}
+/*section6*/
+.sec6{
+    background-color: lightgray;
+    padding: 3rem;
+    text-align: left;
+}
+.dot5 {
+    height: 16%;
+    width: 8%;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.table6 {
+    width: 100%;
+    height: 70%;
+} 
+.td61{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    text-align: left;
+    width: 25%;  
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+.mindful1{
+    color: black;
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.txt1{
+    text-align: left;
+    line-height: 25px;
+}
+.readmore11{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 35%;
+}
+
+.td62{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    margin-right: 1rem;
+    width: 25%; 
+    background-image: url("../image/-min.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
+.dot6 {
+    height: 20%;
+    width: 12%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: -100px;
+    border: 6px solid lightgray;
+}
+/*section7*/
+.sec77{
+    text-align: center;
+    color: black;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fruit{
+    font-size: 60px;
+    color: red;
+}
+.organic{
+    font-size: 20px;
+    font-style: italic;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.grid-item {
+    padding: 10px;
+}
+.grid-item img{
+    width: 100%;
+}
+
+/*section8*/
+.sec8{
+    background-color: lightgray;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table8 {
+    width: 100%;
+    height: 90%;
+    border-spacing: 60px;
+} 
+.td81{
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: lightgray;
+    color: black;
+    margin-right: 1rem;
+    text-align: left;
+    width: 25%;  
+} 
+.mindful{
+    color: black;
+    padding-right: 50px;
+    font-size: 40px;
+}
+hr{
+    border: 10px solid tomato;
+    width: 40%;
+    margin-left: 0%;
+}
+.txt{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 22px;
+}
+.readmore1{
+    border: hidden;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+    width: 25%;
+}
+.td82{
+    padding-top: 20%;
+    border: 2px solid hidden;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    margin-right: 1rem;
+    width: 25%; 
+    padding-left: 2%; 
+    padding-right: 2%;
+    padding-bottom: 3.5%;
+} 
+.dot1 {
+    height: 45%;
+    width: 20%;
+    background-color: tomato;
+    border-radius: 50%;
+    display: inline-block;    
+  }
+.hello{
+    color: black;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/*section9*/
+.sec9{
+    margin-top: 20;
+    margin-left: 10%;
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+.table9 {
+    width: 90%;
+    height: 50%;
+} 
+.td91{
+    border: 3px solid hidden;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: lightgray;
+    font-size: 19px;
+    line-height: 30px;
+} 
+.td92{
+    border: 3px solid hidden;
+    border-collapse: collapse;
+    background-color: tomato;
+} 
+.txt92{
+    font-weight: bold;
+    line-height: 30px;
+}
+.td92 img{
+    padding: 20px;
+    font-size: 10px;
+    width: 17%;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+/*footer*/
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+  } 
+
+.footer a:link{
+    color: skyblue;
+    text-decoration: underline;
+}
